@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClearTrace</title>
+</head>
+<body>
+    <h1>Clear Trace Automation Tool</h1>
+    <form action="/results" method="POST">
+        <label for="email">Enter Email Address:</label>
+        <input type="email" name="email" required>
+        <button type="submit">Run ClearTrace</button>
+        {% if error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endif %}
+    </form>
+</body>
+</html>

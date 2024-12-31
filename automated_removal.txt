@@ -1,0 +1,6 @@
+Automated Data Removal Status for ankit_choubey@srmap.edu.in
+==================================================
+Holehe: Platform Holehe is not supported for automated removal.
+SpiderFoot: Platform SpiderFoot is not supported for automated removal.
+Sherlock: Platform Sherlock is not supported for automated removal.
+theHarvester: Platform theHarvester is not supported for automated removal.

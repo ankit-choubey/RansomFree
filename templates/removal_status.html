@@ -1,0 +1,31 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removal Status</title>
+</head>
+<body>
+    <h1>Data Removal Status for {{ email }}</h1>
+    <ul>
+        {% for result in results %}
+        <li>
+            <strong>{{ result.platform }}:</strong> {{ result.status }}
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to Home</a>
+</body>
+</html> -->
+
+<h1>Data Removal Status for {{ email }}</h1>
+<ul>
+    {% for result in results %}
+    <li>
+        <strong>{{ result.platform }}:</strong> {{ result.status }}
+    </li>
+    {% endfor %}
+</ul>
+<a href="/download/automated_removal.txt"><button>Download Removal Status</button></a>
+<a href="/">Back to Home</a>
+<a href="/">Back to Delete Page</a>

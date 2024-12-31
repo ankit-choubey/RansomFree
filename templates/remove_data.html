@@ -1,0 +1,47 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Removal Options</title>
+</head>
+<body>
+    <h1>Data Removal for {{ email }}</h1>
+    <h2>Manual Removal Instructions</h2>
+    <ul>
+        {% for platform, instruction in instructions.items() %}
+        <li>
+            <strong>{{ platform }}:</strong> {{ instruction }}
+        </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Automated Removal</h2>
+    <form action="/removal_status" method="POST">
+        <input type="hidden" name="email" value="{{ email }}">
+        {% for platform in platforms %}
+        <input type="checkbox" name="platforms" value="{{ platform }}" checked> {{ platform }}<br>
+        {% endfor %}
+        <button type="submit">Send Removal Requests</button>
+    </form>
+</body>
+</html> -->
+
+<h2>Manual Removal Instructions</h2>
+<ul>
+    {% for platform, instruction in instructions.items() %}
+    <li>
+        <strong>{{ platform }}:</strong> {{ instruction }}
+    </li>
+    {% endfor %}
+</ul>
+<a href="/download/manual_removal.txt"><button>Download Manual Instructions</button></a>
+
+<h2>Automated Removal</h2>
+<form action="/removal_status" method="POST">
+    <input type="hidden" name="email" value="{{ email }}">
+    {% for platform in platforms %}
+    <input type="checkbox" name="platforms" value="{{ platform }}" checked> {{ platform }}<br>
+    {% endfor %}
+    <button type="submit">Send Removal Requests</button>
+</form>
