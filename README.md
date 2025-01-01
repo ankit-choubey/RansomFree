@@ -2,7 +2,7 @@
 
 ![RansomFree Logo](icon.jpg)
 
-## Reclaim Your Digital Footprint
+***Reclaim Your Digital Footprint***
 
 ### Introduction
 In today's digital age, your online presence often extends beyond your conscious control. Every social media post, online purchase, and forum comment contributes to your digital footprint. This invisible trail can be exploited by cybercriminals, leading to identity theft, financial fraud, and reputational damage.
@@ -119,7 +119,7 @@ We welcome contributions to improve RansomFree. To contribute:
 ---
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/HarshKumarSaw/RansomFree/blob/master/LICENSE) file for details.
 
 ---
 
